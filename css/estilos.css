@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(99, 187, 238);
+}
+header, footer {
+
+    text-align: center;
+
+    background-color: beige;
+
+}
+p{
+    font-size: 18px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
+    .centrarLista{
+        width: 200px; /*también se puede como 50%*/
+
+    margin: 0 auto;
+
+    background-color: turquoise;
+
+    /*border: 2px solid black;*/
+
+    /*content box es por defecto, es el modelo de caja normal*/
+
+    /*border box ayuda a que incluya el borde y padding en el width*/
+
+    box-sizing: border-box;
+    }
+    #principal{
+        background-color: darksalmon;
+        flex: 90%;
+        padding: 20px;
+        border-left: black solid 2px;
+        
+    }
+    #menu{
+        background-color: rgb(114, 106, 104);
+        flex: 10%
+    }
+    #contenedor 
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    @media screen and (max-width: 700px) {
+
+    }
